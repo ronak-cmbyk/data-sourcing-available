@@ -6,6 +6,8 @@
 
 - The data can be used to interpret linked events between the two research bases as well as the time difference between two occurrences (between the specified dates), amongst much other information.
 
-- rows with missing IDs for both/either GST and CME have been removed since they cannot be merged into a common dataframe.
+- Rows with missing IDs for both/either GST and CME have been removed since they cannot be merged into a common dataframe.
+
+- The final merged dataframe has been exported as a .csv file.
 
 - The retrieve_data.ipynb may have trouble rendering on Github since it is a larger file. However, it should be able to load after giving it some time to refresh. If not the downloaded file, will give the full code that is not able to be rendered on Github.
